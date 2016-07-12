@@ -3,13 +3,14 @@ Repository to keep my Raspberry Pi projects.
 
 ## Getting Started
 
-To use this theme, choose one of the following options to get started:
+To use these projects, choose one of the following options to get started:
 * Download the latest release
 * Fork this repository on GitHub
 
 ## Projects
 
-* Node.js Server
+To use some of these projects you must have **Node.js** and **npm** installed. Between brackets are mencioned the modules you have to install.
+* Node.js Server (express, body-parser, winston)
 
 ## Bugs and Issues
 
