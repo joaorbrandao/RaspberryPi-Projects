@@ -49,3 +49,4 @@ Temporary Items
 # Project files to ignore
 *.class
 *.log
+node_modules/
