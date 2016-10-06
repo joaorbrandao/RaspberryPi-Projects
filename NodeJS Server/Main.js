@@ -22,38 +22,22 @@ app.use(bodyParser.urlencoded({ extended: true}));  //For parsing application/x-
 // Function to handle the HTTP requests
 //Handle GET request
 app.get("/", function(request, response){
-    response.sendFile(__dirname + "/index.html");
-});
-app.get("/:option", function(request, response){
-    var option = request.params.option;
     //Get client IP Address
     var clientIpAddress = request.ip;
-
-    //Turn off the light
-
-    response.send("Light is now " + option);
-
+    response.sendFile(__dirname + "/index.html");
     //Log
     logger.info("Client - " + clientIpAddress);
-    logger.info(option);
 });
 //Handle POST request
 app.post("/", function(request, response){
-    var option = request.body.op;
-    console.log(option.toString());
     //Get client IP Address
     var clientIpAddress = request.ip;
-
-    //Turn off the light
-
-    response.send("Light is now " + option);
-
+    response.sendFile(__dirname + "/index.html");
     //Log
     logger.info("Client - " + clientIpAddress);
-    logger.info(option);
 });
 
-
+//If you want to run in the machine's IP address remove the HOST above ;)
 app.listen(PORT, HOST, function(){
     logger.info("Server started at: " + HOST + ":" + PORT);
 });
