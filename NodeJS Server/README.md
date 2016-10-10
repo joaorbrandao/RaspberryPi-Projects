@@ -4,7 +4,7 @@ Information required to use this project.
 ## Getting Started
 
 ### Installation
-** Open a terminal window **
+**Open a terminal window**
 $ sudo apt-get install nodejs
 $ sudo apt-get install npm
 $ cd [project directory]
@@ -14,10 +14,10 @@ $ sudo npm install winston
 
 
 ### Run the server
-** Navigate to the project directory **
+**Navigate to the project directory**
 $ nodejs Main.js
 
-** Test the server by openning your browser and writting the IP Address that is shown on the terminal **
+**Test the server by openning your browser and writting the IP Address that is shown on the terminal**
 
 ### Scheduling to run at boot
 Using cron to schedule tasks: https://www.raspberrypi.org/documentation/linux/usage/cron.md
