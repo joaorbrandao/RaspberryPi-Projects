@@ -4,7 +4,7 @@ Information required to use this project.
 ## Getting Started
 
 ### Installation
-** Open a terminal window **
+**Open a terminal window**
 * sudo apt-get install nodejs
 * sudo apt-get install npm
 * cd [project directory]
@@ -14,10 +14,10 @@ Information required to use this project.
 
 
 ### Run the server
-** Navigate to the project directory **
+**Navigate to the project directory**
 * node app.js
 
-** Test the server by openning your browser and writting "localhost" **
+**Test the server by openning your browser and writting "localhost"**
 
 ### Scheduling to run at boot
 Using cron to schedule tasks: https://www.raspberrypi.org/documentation/linux/usage/cron.md
