@@ -1,24 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="This is a Node.js server">
-    <meta name="author" content="Joao Brandao">
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <title>HOME - Node.js Server</title>
+    <% include partials/template/head.ejs %>
 </head>
 
 <body>
-    <h1>Hello World! :D</h1>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Navigation -->
+    <% include partials/template/navigation.ejs %>
+    <!-- Header -->
+    <% include partials/template/header.ejs %>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+    <!-- Services -->
+	<% include partials/content/services.ejs %>
+
+    <!-- Contact -->
+	<% include partials/content/contact.ejs %>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <% include partials/template/footer.ejs %>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
