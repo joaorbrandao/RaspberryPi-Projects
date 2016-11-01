@@ -10,7 +10,6 @@ $ sudo apt-get install npm
 $ cd [project directory]
 $ sudo npm install express
 $ sudo npm install body-parser
-$ sudo npm install winston
 
 
 ### Run the server
