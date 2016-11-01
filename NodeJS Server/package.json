@@ -4,6 +4,7 @@
   "description": "A Node.js application",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "node app.js"
   },
   "repository": {
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/joaorbrandao/RaspberryPi-Projects#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
     "express": "^4.14.0"
   }
 }
