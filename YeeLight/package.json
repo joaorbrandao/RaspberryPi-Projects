@@ -1,0 +1,22 @@
+{
+  "name": "yeelight",
+  "version": "1.0.0",
+  "description": "Application to serve and control YeeLight bulbs.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaorbrandao/RaspberryPi-Projects.git"
+  },
+  "author": "João Brandão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaorbrandao/RaspberryPi-Projects/issues"
+  },
+  "homepage": "https://github.com/joaorbrandao/RaspberryPi-Projects#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
